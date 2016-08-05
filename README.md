@@ -1,4 +1,4 @@
-# generator-angular-adigit [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][https://travis-ci.org/Cedric-locchi/generateur-angular.svg] 
+# generator-angular-adigit [![NPM version][npm-image]][npm-url] [![Build Status](https://travis-ci.org/Cedric-locchi/generateur-angular.svg?branch=master)](https://travis-ci.org/Cedric-locchi/generateur-angular) 
 > generateur du socle angular pour les developpement interne adigit.
 
 ## Installation
