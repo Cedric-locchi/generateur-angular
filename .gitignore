@@ -1,0 +1,9 @@
+#config jetbrain
+.idea
+
+#dependances
+node_modules
+coverage
+
+#other
+.DS_Store

@@ -1,0 +1,12 @@
+#config webstorm
+.idea
+
+#config dependences
+node_modules/
+
+#config custom
+npm-debug.log
+logs/*
+!.gitkeep
+tmp
+.DS_Store

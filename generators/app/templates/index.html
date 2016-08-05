@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adigit groupe</title>
+    <!-- IMPORT DES FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'/>
+    <!-- IMPORT CDN FONT-AWESOME -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"/>
+    <!-- IMPORT CSS -->
+    <link rel="stylesheet" href="public/css/style.css">
+    <!-- IMPORT INLINE CSS -->
+
+</head>
+
+<body ng-app="app">
+
+<div class="header">
+
+    <nav class="nav">
+        <ul>
+            <li><a ui-sref="index">accueil</a></li>
+            <li><a ui-sref="news">news</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+<div ui-view></div>
+
+<footer class="footer">
+
+</footer>
+
+<!-- build:js public/js/vendors/vendors.js -->
+<script src="node_modules/angular/angular.js"></script>
+<script src="node_modules/angular-sanitize/angular-sanitize.js"></script>
+<script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+<!-- endbuild -->
+<script src="public/js/bundle.js"></script>
+
+<script id="__bs_script__">
+    //<![CDATA[document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.13.0.js'><\/script>".replace("HOST", location.hostname));//]]>
+</script>
+
+</body>
+</html>
