@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "generateur du socle angular pour les developpement interne adigit.",
   "homepage": "",
+  "repository": {
+    "url": "https://github.com/Cedric-locchi/generateur-angular"
+  },
   "author": {
     "name": "cedric",
     "email": "cedric@adigit.com",
@@ -45,6 +48,5 @@
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp test"
-  },
-  "private": true
+  }
 }
