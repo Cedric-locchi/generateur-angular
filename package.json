@@ -1,7 +1,7 @@
 {
   "name": "generator-angular-adigit",
-  "version": "0.0.0",
-  "description": "generateur du socle angular pour adigit",
+  "version": "0.0.1",
+  "description": "generateur du socle angular pour les developpement interne adigit.",
   "homepage": "",
   "author": {
     "name": "cedric",
