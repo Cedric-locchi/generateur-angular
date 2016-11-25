@@ -22,7 +22,7 @@ module.exports = yeoman.Base.extend({
         type: 'input',
         name: 'version',
         message: 'version du projet',
-        default: '0.0.0.1'
+        default: '0.0.1'
       },
       {
         type: 'input',
